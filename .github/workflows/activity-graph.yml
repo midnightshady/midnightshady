@@ -1,1 +1,27 @@
+name: Generate Activity Graph
 
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Generate GitHub Activity Graph
+        uses: Ashutosh00710/github-readme-activity-graph@main
+        with:
+          github-username: midnightshady
+          output-file: dist/activity-graph.svg
+
+      - name: Deploy to output branch
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: output
+          publish_dir: ./dist
