@@ -19,7 +19,7 @@ Building reliable backend systems with clean architecture and scalable solutions
 
 <img align="right" src="./assets/astro-removebg-preview.png" width="280" alt="Developer Illustration"/>
 
-Hi, I'm **Kaif** — a final-year Computer Engineering student focused on backend development.
+**Shaddy**, Here  — a final-year Computer Engineering student focused on backend development.
 
 I enjoy building scalable, production-ready APIs with Python and continuously improving my understanding of real-world backend systems.
 
