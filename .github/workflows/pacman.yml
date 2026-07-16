@@ -15,12 +15,50 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
       - name: Generate Pac-Man contribution graph SVGs
         uses: abozanona/pacman-contribution-graph@v5.0.0
         with:
           github_user_name: ${{ github.repository_owner }}
+          games: 'pacman'
+          player_style: 'opportunistic'
+
+      - name: Inline external images into SVG (fixes broken ghost icons)
+        run: |
+          python3 - <<'EOF'
+          import re, base64, glob, urllib.request
+
+          for path in glob.glob("dist/*.svg"):
+              with open(path, "r", encoding="utf-8") as f:
+                  svg = f.read()
+
+              def inline_image(match):
+                  attr, url = match.group(1), match.group(2)
+                  if url.startswith("data:"):
+                      return match.group(0)
+                  try:
+                      req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+                      data = urllib.request.urlopen(req, timeout=15).read()
+                      mime = "image/png"
+                      low = url.lower()
+                      if low.endswith(".gif"):
+                          mime = "image/gif"
+                      elif low.endswith((".jpg", ".jpeg")):
+                          mime = "image/jpeg"
+                      elif low.endswith(".svg"):
+                          mime = "image/svg+xml"
+                      b64 = base64.b64encode(data).decode()
+                      return f'{attr}="data:{mime};base64,{b64}"'
+                  except Exception as e:
+                      print(f"WARN: could not inline {url}: {e}")
+                      return match.group(0)
+
+              svg = re.sub(r'(xlink:href|href)="(https?://[^"]+)"', inline_image, svg)
+
+              with open(path, "w", encoding="utf-8") as f:
+                  f.write(svg)
+              print(f"Processed {path} ({len(svg)} bytes)")
+          EOF
 
       - name: Push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v5
