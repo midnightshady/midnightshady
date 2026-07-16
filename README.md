@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/ascihand.jpg" alt="Banner" width="100%">
+  <img src="./assets/ascihand-removebg-preview.png" alt="Banner" width="100%">
 </p>
 
 <h1 align="center">Hi 👋, Imma Shady</h1>
@@ -15,7 +15,7 @@ Building reliable backend systems with clean architecture and scalable solutions
 </p>
 
 
-## 🚀 About Me
+##  <h2 align="center">🚀 About Me </h2>
 
 <img align="right" src="./assets/astro-removebg-preview.png" width="280" alt="Developer Illustration"/>
 
@@ -81,11 +81,6 @@ My goal is simple: write clean code, build reliable software, and grow into a so
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=midnightshady&bg_color=1F242C&color=E6EDF3&line=3B82F6&point=58A6FF&area=true&hide_border=true&radius=16" alt="Activity Graph"/>
 </p>
 
-###
-
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=midnightshady&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
 ## 👾 Pac-Man Contribution Graph
 
