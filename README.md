@@ -17,7 +17,7 @@ Building reliable backend systems with clean architecture and scalable solutions
 
 ## 🚀 About Me
 
-<img align="right" src="./assets/about-me.png" width="280" alt="Developer Illustration"/>
+<img align="right" src="./assets/astro-removebg-preview.png" width="280" alt="Developer Illustration"/>
 
 Hi, I'm **Kaif** — a final-year Computer Engineering student focused on backend development.
 
