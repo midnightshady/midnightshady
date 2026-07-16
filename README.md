@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/ascihand.jpg" alt="Banner" width="100%">
+</p>
+
 ## Hi, I'm Kaif 👋
 
 # 💫 About Me:
