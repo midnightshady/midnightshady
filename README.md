@@ -67,11 +67,19 @@ My goal is simple: write clean code, build reliable software, and grow into a so
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" height="48" alt="Google Cloud" />
 </p>
 
-#  <h2 align="center">📊 GitHub Stats: </h2>
-<div data-importer="stats" align="center">
-  <img src="https://streak-stats.demolab.com?user=midnightshady&locale=en&mode=daily&theme=city_lights&hide_border=false&border_radius=5&order=3" height="150" alt="streak graph"  />
-  <img src="https://raw.githubusercontent.com/midnightshady/midnightshady/activity-graph-output/activity-graph.svg?radius=16&theme=arctic&area=true&order=5&bg_color=1F242C&hide_border=true&hide_title=true&color=E6EDF3&title_color=58A6FF&line=3B82F6&point=58A6FF&area_color=3B82F620" height="300" alt="activity-graph graph"  />
+<h2 align="center">📊 GitHub Stats</h2>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=midnightshady&theme=city_lights&hide_border=false&border_radius=5" height="150"/>
+
 </div>
+
+<h2 align="center">📈 Activity Graph</h2>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=midnightshady&bg_color=1F242C&color=E6EDF3&line=3B82F6&point=58A6FF&area=true&hide_border=true&radius=16" alt="Activity Graph"/>
+</p>
 
 ###
 
