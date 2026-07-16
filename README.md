@@ -2,10 +2,34 @@
   <img src="./assets/ascihand.jpg" alt="Banner" width="100%">
 </p>
 
-## Hi, I'm Kaif 👋
+<h1 align="center">Hi 👋, Imma Shady</h1>
 
-# 💫 About Me:
-- 🔭 I’m currently building **production-ready backend APIs with FastAPI**<br>- 👯 I’m open to collaborating on **Python Backend & Open Source projects**<br>- 🤝 Looking for guidance in **System Design, Docker, and Cloud**<br>- 🌱 Currently learning **PostgreSQL, SQLAlchemy, Authentication (JWT), and Redis**<br>- 💬 Ask me about **Python, FastAPI, SQL, Git, GitHub, and DSA**<br>- ⚡ Fun fact: **Clean code > Clever code.**
+<h3 align="center">Backend Developer</h3>
+
+<p align="center">
+  <img src= https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1200&color=C9D1D9&center=true&vCenter=true&width=700&height=60&lines=+%3E+Start+Debugging+The+Chaos;%3E+Code+Like+A+Menace;+%3E+If+It+Compiles%2C+It's++Staying;Just+Code+Nig alt="Typing SVG" />
+</p>
+
+<p align="center">
+Building reliable backend systems with clean architecture and scalable solutions.
+</p>
+
+
+## 🚀 About Me
+
+<img align="right" src="./assets/about-me.png" width="280" alt="Developer Illustration"/>
+
+Hi, I'm **Kaif** — a final-year Computer Engineering student focused on backend development.
+
+I enjoy building scalable, production-ready APIs with Python and continuously improving my understanding of real-world backend systems.
+
+Currently, I'm learning **FastAPI, PostgreSQL, SQLAlchemy, Docker, and Redis**, while sharpening my problem-solving skills through **Data Structures & Algorithms**.
+
+My goal is simple: write clean code, build reliable software, and grow into a software engineer who creates systems that last.
+
+<br clear="right"/>
+
+
 
 
 ## 🌐 Socials:
