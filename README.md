@@ -81,8 +81,8 @@ My goal is simple: write clean code, build reliable software, and grow into a so
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=midnightshady&bg_color=1F242C&color=E6EDF3&line=3B82F6&point=58A6FF&area=true&hide_border=true&radius=16" alt="Activity Graph"/>
 </p>
 
-
-## 👾 Pac-Man Contribution Graph
+### 
+<h2 align="center">⌘ Commit Activity</h2>
 
 <picture>
   <source media="(prefers-color-scheme: dark)"
@@ -91,16 +91,15 @@ My goal is simple: write clean code, build reliable software, and grow into a so
   <source media="(prefers-color-scheme: light)"
     srcset="https://raw.githubusercontent.com/midnightshady/midnightshady/output/pacman-contribution-graph.svg">
 
-  <img alt="Pac-Man contribution graph"
-    src="https://raw.githubusercontent.com/midnightshady/midnightshady/output/pacman-contribution-graph.svg">
-</picture>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/midnightshady/midnightshady/output/pacman-contribution-graph-dark.svg">
+</p>
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+<h2 align="center">⌘ Philosophy</h2>
 
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=midnightshady&limit=5&theme=dark&combine_all_yearly_contributions=true)
----
-[![](https://komarev.com/ghpvc/?username=midnightshady&icon=0&color=0)](https://visitcount.itsvg.in)
+<p align="center">
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Developer Quote"/>
+</p>
+
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
